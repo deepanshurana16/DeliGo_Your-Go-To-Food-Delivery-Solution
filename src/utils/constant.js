@@ -4,4 +4,6 @@ export const HEADER_LOGO =
 export const RESTRAUNT_CARD_IMG =
   "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/";
 
-  export const RESTAURANT_URL = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=19.232476&lng=72.975436&restaurantId="
+export const RESTAURANT_URL = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=19.232476&lng=72.975436&restaurantId="
+
+export const MENU_ITEM_IMG = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/"
