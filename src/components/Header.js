@@ -22,7 +22,7 @@ const Header = () => {
         <ul className="flex p-8 m-4">
         <li>
         {onlineStatusHeader===true?(
-        <span className="blinkgreen ">✅</span>):(
+        <span className="blinkgreen">✅</span>):(
           <span className="blinkred">❌</span>
         )}
         </li>
