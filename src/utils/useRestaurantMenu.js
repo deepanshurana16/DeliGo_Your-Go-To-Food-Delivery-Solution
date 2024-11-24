@@ -12,7 +12,7 @@ const useRestaurantMenu = (resId) => {
         const fetchedData = await fetch(RESTAURANT_URL + resId);
         const jsonFetchedData = await fetchedData.json();
         setResInfo(jsonFetchedData.data);
-        console.log(jsonFetchedData.data);
+        // console.log(jsonFetchedData.data);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
